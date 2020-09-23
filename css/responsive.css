@@ -1,0 +1,66 @@
+@media only screen and (max-width: 800px)
+{
+
+	nav ul
+	{
+		position: absolute;
+		top: 70px;
+		left: 0px;
+		background: #333;
+		width: 100%;
+		display: block;
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height 0.6s;
+	}
+	nav ul li
+	{
+		display: block;
+		text-align: center;
+		margin-top: 5px;
+		border-bottom: 1px solid gray;
+		padding:10px
+
+	}
+	nav ul li a
+	{
+		color: #fff;
+	}
+	.menu-icon
+	{
+		display: block;
+	}
+}
+@media only screen and (max-width: 600px)
+{
+	.row
+	{
+		text-align: center;
+	}
+	.col-2,.col-3,.col-4,.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4
+	{
+		flex-basis: 100%;
+	}
+	.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4
+	{
+		margin-top: 20px;
+	}
+	#testimonial .col-3:nth-child(2)
+	{
+	margin: 0px 0px 30px;
+	}
+	.single-product .row
+	{
+		text-align: left;
+	}
+	.single-product .col-2
+	{
+		padding: 20px 0;
+	}
+	.single-product h1
+	{
+		font-size: 26px;
+		line-height: 32px;
+
+	}
+}
